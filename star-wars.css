@@ -1,0 +1,30 @@
+header	{
+	width: 100%;
+	background-color: orange;
+	padding: 20px;
+}
+
+main {
+  padding-top: 100px;
+}
+
+main .row {
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 200px;
+  text-align: left;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box img {
+	width: 100%;
+}
+
+.box p {
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}

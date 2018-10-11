@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Star Wars Responsive Challenge</title>
+  <meta name="star wars playing cards" content="responsive coding challenge using Star Wars playing cards">
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +15,63 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
-
+  <link rel="stylesheet" type="text/css" href="float-grid.css">
+  <link rel="stylesheet" type="text/css" href="star-wars.css">
 </head>
 <body>
+	<header>
+		<h2>Star Wars Characters</h2>
+		<p>Incomplete List</p>
+	</header>
+	<main>
+		<div class="row">
+			<div class="col-4">
+				<div class="box top left">
+					<img src="images/rey_square.png">
+					<h4>Ray</h4>
+					Protagonist, from Tatooine</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box top middle">
+					<img src="images/finn_square.png">
+					<h4>Finn</h4>
+					<p>Storm Trooper, befriends Ray</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box top right">
+					<img src="images/kylo_square.png">
+					<h4>Kylo</h4>
+					<p>Main villain, or is he?</p>
+				</div>
+			</div>
+		</div>
 
+
+		<div class="row">
+			<div class="col-4">
+				<div class="box bottom left">
+					<img src="images/poe_square.png">
+					<h4>Poe</h4>
+					<p>neutral pilot</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box bottom middle">
+					<img src="images/chewbacca_square.png">
+					<h4>Chewbacca</h4>
+					<p>A great first mate</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box bottom right">
+					<img src="images/yoda_square.png">
+					<h4>Yoda</h4>
+					<p>Wise old Jedi Master</p>
+				</div>
+			</div>
+		</div>
+	</main>
 </body>
 </html>
